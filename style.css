@@ -1,0 +1,28 @@
+body {
+    background-image: url("resources/background1.gif");
+  }
+  #mainframe {
+    border-radius: 5px;
+    height: 600px;
+    width: 600px;
+    margin: 25px 350px;
+    border-style:double;
+    border-color:#02317d;
+    background-color:#112340;
+  }
+  #heading{
+    color: #115f8a;
+    font-family: "Lucida Console", Courier, monospace;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+  }
+  #menu{
+    border-radius: 5px;
+    border-style:double;
+    border-color:#02317d;
+    height: 600px;
+    width: 100px;
+    margin: 25px 990px;
+    background-color:#112340;
+    margin-top: -630px;
+}
