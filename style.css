@@ -1,20 +1,16 @@
-.body {
-  background-image: url('http://i.stack.imgur.com/kx8MT.gif');
-    background-size: cover;
-    
-    
-    
-    height: 100vh;
-    padding:0;
-    margin:0;
+body {
+  margin:0;
+  padding:0;
+  height: 100vh;
 
-    display: flex;
-    flex-wrap: nowrap;
+  background-image: url("./resources/background1.gif");
+  background-size: cover;
 }
+
 .center {
   margin: 0 auto;
   width: 50vw;
-  height: 70vh;
+  transform: translateY(20vh);
 }
 
 .main {
@@ -45,4 +41,12 @@
   font-family: "Lucida Console", Courier, monospace;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-align: center;
+}
+
+.planet {
+  margin: -11% 0%;
+  background-image: url("./resources/giph1.gif");
+  background-size: 100% 100%;
+  width: 20%;
+  height: 20%;
 }
