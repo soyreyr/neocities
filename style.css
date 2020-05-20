@@ -3,14 +3,15 @@ body {
   }
   #mainframe {
     border-radius: 5px;
-    height: 600px;
-    width: 600px;
-    margin: 25px 350px;
+    height: 50%;
+    width: 50vh;
+
     border-style:double;
     border-color:#02317d;
     background-color:#112340;
+    margin: auto;
   }
-  #heading{
+  .heading{
     color: #115f8a;
     font-family: "Lucida Console", Courier, monospace;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -22,7 +23,7 @@ body {
     border-color:#02317d;
     height: 600px;
     width: 100px;
-    margin: 25px 990px;
+    margin-left: 1165px;
     background-color:#112340;
-    margin-top: -630px;
+    margin-top: -605px;
 }
